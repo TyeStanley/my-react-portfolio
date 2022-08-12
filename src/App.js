@@ -1,40 +1,38 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState } from 'react';
 import './App.css';
 import Header from './components/Header';
 import Footer from './components/Footer';
 // Pages
 import About from './components/pages/About';
 import Portfolio from './components/pages/Portfolio';
+import Contact from './components/pages/Contact';
+import Resume from './components/pages/Resume';
 
 
 function App() {
-  // You can use this space for other things
   const [currentPage, setCurrentPage] = useState('about');
 
-  useEffect(() => {
+  const renderPage = () => {
 
-      let renderPage = (currentPage) => {
-
-          switch(currentPage){
-              case 'about':
-                  return <About/>
-              case 'portfolio':
-                  return <Portfolio/>
-              default: 
-               return <About/>
-          }
-      }
-
-
-  },[currentPage])
-
-  const handlePageChange = (page) => setCurrentPage(page);
+    switch(currentPage) {
+      case 'about':
+        return <About />;
+      case 'portfolio':
+        return <Portfolio />
+      case 'contact':
+        return <Contact />
+      case 'resume':
+        return <Resume />
+      default: 
+        return <About />
+    }
+  }
 
   return (
     <div className="App">
       <Header
-        currentPage={currentPage} 
-        handlePageChange={handlePageChange}
+        currentPage={currentPage}
+        handlePageChange={setCurrentPage}
       />
       <main>
         {renderPage()}
