@@ -4,12 +4,12 @@ function Nav({ currentPage, handlePageChange }) {
 
   return (
     
-    <nav>
-      <ul className="nav nav-tabs flex-row">
+    <nav className="col-9">
+      <ul className="nav">
         <li className="nav-item mx-2">
           <span
             onClick={() => handlePageChange('about')}
-            className={currentPage === 'about' ? 'nav-link active' : 'nav-link'}
+            className={currentPage === 'about' ? 'navActive' : ''}
           >
             About Me
           </span>
@@ -17,7 +17,7 @@ function Nav({ currentPage, handlePageChange }) {
         <li className="nav-item mx-2">
           <span
             onClick={() => handlePageChange('portfolio')}
-            className={currentPage === 'portfolio' ? 'nav-link active' : 'nav-link'}
+            className={currentPage === 'portfolio' ? 'navActive' : ''}
           >
             Portfolio
           </span>
@@ -25,7 +25,7 @@ function Nav({ currentPage, handlePageChange }) {
         <li className="nav-item mx-2">
           <span
             onClick={() => handlePageChange('contact')}
-            className={currentPage === 'contact' ? 'nav-link active' : 'nav-link'}
+            className={currentPage === 'contact' ? 'navActive' : ''}
           >
             Contact
           </span>
@@ -33,7 +33,7 @@ function Nav({ currentPage, handlePageChange }) {
         <li className="nav-item mx-2">
           <span
             onClick={() => handlePageChange('resume')}
-            className={currentPage === 'resume' ? 'nav-link active' : 'nav-link'}
+            className={currentPage === 'resume' ? 'navActive' : ''}
           >
             Resume
           </span>

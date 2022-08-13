@@ -1,15 +1,25 @@
 .App {
   text-align: center;
   color: white;
+  
 }
-.test {
-  width: 100%;
-  background-color: red;
-}
+
 .navLinks {
   color: white;
 }
 .navLinks ul {
   list-style-type: none;
   padding: 0;
+}
+
+.bubblesImg {
+  width: 50%;
+  height: auto;
+  border: 2px solid white;
+  border-radius: 2px;
+}
+
+.projectArrMap {
+  height: 300px;
+  border: 2px solid white;
 }

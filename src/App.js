@@ -9,6 +9,7 @@ import Contact from './components/pages/Contact';
 import Resume from './components/pages/Resume';
 
 
+
 function App() {
   const [currentPage, setCurrentPage] = useState('about');
 

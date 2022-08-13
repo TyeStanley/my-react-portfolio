@@ -4,9 +4,13 @@ import Nav from '../Nav';
 function Header({ currentPage, handlePageChange }) {
   
   return (
-    <header className="flex-row px-1">
-      <h1>
-        <a href="/">Tye Stanley</a>
+    <header className="d-flex flex-row">
+      <h1 className="col-3 ">
+        <a 
+        href="/"
+        >
+          Tye Stanley
+        </a>
       </h1>
       <Nav
         currentPage={currentPage} 
