@@ -38,9 +38,9 @@ export default function ContactForm() {
   }
 
   return (
-    <section id="contactId" className="d-flex flex-column">
+    <section>
       <h1>Contact Me</h1>
-      <form id="contact-form" onSubmit={handleSubmit}>
+      <form id="contact-form" className="col-sm-12 col-lg-5" onSubmit={handleSubmit}>
         <div className="form-group">
           <label htmlFor="name">Name</label>
           <input className="form-control" type="text" defaultValue={name} name="name" onBlur={handleChange} />

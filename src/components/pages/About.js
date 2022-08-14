@@ -3,7 +3,7 @@ import bubbles from '../../assets/images/bubbles-logic.jpg'
 
 export default function About() {
   return (
-    <div className="paraContainer">
+    <div className="paraContainer col-sm-12 col-lg-8">
       <img className="bubblesImg" src={bubbles} alt="Tye Stanley" />
       <h2>About Me</h2>
       <p>
