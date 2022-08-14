@@ -6,7 +6,7 @@ This portfolio project was started with `create react app`. It allows you to qui
 
 ## Links
 
-Deployed: **Soon**
+Deployed: https://tyes-first-react-portfolio.herokuapp.com/
 
 ## Installation
 
