@@ -39,7 +39,7 @@ This script makes an optimized production build and exports it to the build fold
 
 ## Demo
 
-![Portfolio](src\assets\images\portfolioimg.PNG)
+![Portfolio](./src/assets/images/portfolioimg.PNG)
 
 ## Features
 
