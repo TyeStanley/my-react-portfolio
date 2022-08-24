@@ -4,6 +4,12 @@ export default function Portfolio() {
 
   const projectArr = [
     {
+      name: 'Nibbler',
+      repository: 'https://github.com/TyeStanley/nibbler',
+      deployed: 'https://fathomless-peak-48299.herokuapp.com/',
+      image: 'nibbler.PNG'
+    },
+    {
       name: 'My Food Planner',
       repository: 'https://github.com/TyeStanley/my-food-planner',
       deployed: 'https://tyestanley.github.io/my-food-planner/',
@@ -32,12 +38,6 @@ export default function Portfolio() {
       repository: 'https://github.com/TyeStanley/run-buddy',
       deployed: 'run-buddy.PNG',
       image: 'run-buddy.PNG'
-    },
-    {
-      name: 'Horiseon',
-      repository: 'https://github.com/TyeStanley/horiseon-refactor',
-      deployed: 'https://tyestanley.github.io/horiseon-refactor/',
-      image: 'horiseon.PNG'
     }
   ]
 
