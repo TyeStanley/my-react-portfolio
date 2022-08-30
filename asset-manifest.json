@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/static/css/main.d8201e09.css",
+    "main.js": "/static/js/main.1500f752.js",
+    "static/js/787.56d9acf9.chunk.js": "/static/js/787.56d9acf9.chunk.js",
+    "static/media/horiseon.PNG": "/static/media/horiseon.135c704908b22d526fab.PNG",
+    "static/media/next-exit.PNG": "/static/media/next-exit.eeae6f1bd177f626e7b8.PNG",
+    "static/media/my-food-planner.PNG": "/static/media/my-food-planner.aeb4bb572f856cd35921.PNG",
+    "static/media/bubbles-logic.jpg": "/static/media/bubbles-logic.9f1b3b7d4ab5e405384f.jpg",
+    "static/media/run-buddy.PNG": "/static/media/run-buddy.1811e4edcf7c1755124c.PNG",
+    "static/media/nibbler.PNG": "/static/media/nibbler.eb341bce120a970ad3f9.PNG",
+    "static/media/portfolioimg.PNG": "/static/media/portfolioimg.de5ffbef850c4d3f9854.PNG",
+    "static/media/weather-dashboard.PNG": "/static/media/weather-dashboard.7af4aaa7e72bd28d6c6a.PNG",
+    "static/media/my-tech-blog.PNG": "/static/media/my-tech-blog.2f26de656d6f0bc6f2e1.PNG",
+    "index.html": "/index.html",
+    "main.d8201e09.css.map": "/static/css/main.d8201e09.css.map",
+    "main.1500f752.js.map": "/static/js/main.1500f752.js.map",
+    "787.56d9acf9.chunk.js.map": "/static/js/787.56d9acf9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d8201e09.css",
+    "static/js/main.1500f752.js"
+  ]
+}
